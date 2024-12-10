@@ -1,0 +1,980 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.main-div{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.home-pg{
+  background-color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  height: 600px;
+  background-image: url(https://i.pinimg.com/736x/a3/a6/25/a3a6252bd2ebcddacfac01e1c078c73c.jpg) ;
+  background-repeat:no-repeat ;
+  background-position: right;
+  
+}
+#send-msg{
+  border: 2px solid black;
+  background-color: #000000;
+  color: white;
+  border-radius: 20px;
+  float: right;
+  width: 150px;
+  height: 50px;
+  margin-right: 700px;
+  box-shadow: 0 0 30px black;
+  margin-bottom: 50px;
+  
+}
+#name{
+  font-size: 64px;
+  padding-top: 300px;
+  margin-left: 260px;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+
+}
+#logo{
+  font-size: 30px;
+  margin-right: 200px;
+  
+
+}
+
+nav{
+  display: flex;
+  background-color: #000000;
+}
+
+ul{
+  
+  background-color: #050505;;
+  color: white;
+  gap: 30px;
+  padding-top: 10px;
+  display: flex;
+  
+}
+li{
+  margin-left: 30px;
+  font-size: 20px;
+  justify-content: center;
+  float: right;
+  
+  
+ 
+  
+  
+
+}
+li:hover{
+  color: orangered;
+  
+}
+
+
+        /* HOME PAGE COMPLETED */
+
+#about-hg{
+  
+  margin-left:100px ;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#left-section{
+  display: flex;
+  width: 1000px;
+  gap: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  
+}
+.about-pg{
+  display: flex;
+  gap: 20px;
+}
+#about-me{
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+img{
+  height: 150px;
+  width: 150px;
+}
+#profile-item{
+  font-size: 20px;
+  gap: 10px;
+}
+
+
+                          /* MY RESUME */
+.resume-container{
+  margin: 50px;
+  display: flex;
+}
+
+#my-resume{
+  font-size: 50px;
+  margin-left: 500px;
+}
+
+.left-section{
+  width: 700px;
+}
+.right-section{
+  width: 400px;
+}
+h3{
+  font-size: 25px;
+  border-radius: 30px;
+  padding-inline-start: 40px;
+  color: orangered;
+}
+p{
+  font-size: 18px;
+  margin-left: 50px;
+  
+}
+
+
+
+.resume-container{
+  border: 2px solid rgb(132, 226, 226);
+  padding: 10px;
+  border-radius: 20px;
+  background-color:rgb(193, 218, 218) ;
+  gap: 20px;
+  box-shadow: 0 0 40px rgb(118, 221, 221);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+                            /* RESUME END */
+
+                            /* CONTACT US KA PAGE */
+#contact-heading{
+  font-size: 50px;
+  margin-left: 500px;
+  margin-bottom: 50px;
+  
+}
+#input-type{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 500px;
+  padding-left: 50px;
+}
+#input-boxes{
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+  padding-left: 100px;
+  margin-bottom: 100px;
+
+  
+}
+#right-boxes{
+  display: grid;
+  gap: 5px;
+  font-size: 20px;
+  text-align: center;
+  
+  
+  
+}
+#message{
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+  margin-right: 100px;
+  padding-left: 80px;
+  font-size: 20px;
+}
+          /* PROJECTS KA PAGE */
+#projects{
+  font-size: 50px;
+  margin-left: 500px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+
+/* FOOTER KA PAGE */
+footer{
+  background-color: #000000;
+  color: white;
+  height: 400px;
+  gap: 10px;
+  display: flex;
+  padding: 20px;
+  margin-top: 300px;
+}
+#footer-paragraph{
+  margin-top: 50px;
+  margin-left: 200px;
+}
+#second-portion{
+  
+  margin-top: 50px;
+  margin-left: 100px;
+  
+}
+#logo-1{
+  display: flex;
+
+}
+
+
+  /* RESPONSIVE DESIGN */
+  @media (min-width:350px) and (max-width:500px){
+    #logo{
+      margin-left: 50px;
+      margin-right: 100px;
+    
+    }
+ nav{
+  display: grid;
+ }
+    
+ 
+    
+    li{
+      
+      margin: 0px;
+      padding: 0%;
+      font-size: 15px;
+      margin-left: 0px;
+  
+    }
+    #name{
+      font-size: 40px;
+      margin-left: 10px;
+      padding-top: 300px;
+    }
+            /* ABOT ME PAGE */
+  
+    #about-hg{
+  
+      margin-left:70px ;
+      margin-top: 50px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      font-size: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    #left-section{
+      display: grid;
+      gap: 10px;
+      margin-left: 50px;
+      margin-right: 100px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      
+    }
+    .about-pg{
+      display: grid;
+      gap: 10px;
+      padding: 0px;
+    }
+    #about-me{
+      margin-right: 10px;
+      margin-left: 10px;
+      font-size: 18px;
+      padding-right: 150px;
+      
+    }
+    img{
+      height: 130px;
+      margin-left: 30px;
+      width: 130px;
+    }
+    #profile-item{
+      font-size: 20px;
+      gap: 10px;
+      margin-left: 5px;
+      padding-left: 0%;
+    }
+    p{
+      margin-left: 5px;
+      padding-left: 10px;
+      padding-right: 100px;
+      width: 500px;
+    }
+            /* ABOUT PAGE COMPLETED  */
+            /* RESUME PAGE START */
+    .resume-container{
+      margin-top: 50px;
+      padding: 5px;
+      width: 500px;
+      margin-left: 5px;
+      padding-right: 100px;
+    }
+    h3{
+      font-size: 20px;
+      margin-left: 0px;
+    }
+    #my-resume{
+      margin-left: 50px;
+      font-size: 50px;
+      margin-top: 50px;
+    }
+            /* CONTACT US KA PAGE */
+    #contact-heading{
+      margin-left: 50px;
+      font-size: 40px;
+    }
+    #input-boxes{
+      display: grid;
+      margin-left: 5px;
+      padding-left: 5px;
+    }
+    #message{
+      margin-left: 10px;
+      padding-left: 100px;
+    }
+    #input-type{
+      width: 500px;
+      
+    }
+    #right-boxes{
+      padding-left: 10px;
+    }
+    #send-msg{
+      margin-right: 80px;
+    }
+              /* PROJECTS KA PAGE */
+    #projects{
+      margin-left: 20px;
+      font-size: 40px;
+      margin-top: 100px;
+    }
+        
+
+      footer{
+        background-color: #000000;
+        color: white;
+        height: 500px;
+        gap: 10px;
+        padding: 20px;
+        margin-top: 300px;
+        display: grid;
+        
+      }
+      #footer-paragraph{
+        margin-top: 50px;
+        margin-left: 20px;
+      }
+      #second-portion{
+        
+        margin-top: 50px;
+        margin-left: 100px;
+        display: grid;
+        
+      }
+      #logo-1{
+        display: flex;
+        margin-right: 0%;
+        margin-right: 10px;
+        padding-right: 10px;
+      
+      }
+      #random-id{
+        margin-left: 5px;
+        color: white;
+        display: none;
+      }
+  }
+
+              /* RESPONSIVE DESIGN PART 2 */
+  @media (min-width:501px) and (max-width:650px){
+    #logo{
+      margin-left: 150px;
+      margin-right: 100px;
+    
+    }
+ nav{
+  display: grid;
+ }
+    
+ 
+    
+    li{
+      
+      margin: 0px;
+      padding: 0%;
+      font-size: 20px;
+      margin-left: 18px;
+  
+    }
+    #name{
+      font-size: 50px;
+      margin-left: 10px;
+      padding-top: 300px;
+    }
+            /* ABOUT ME PAGE */
+  
+    #about-hg{
+  
+      margin-left:150px ;
+      margin-top: 50px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      font-size: 50px;
+      
+    }
+    #left-section{
+      display: flex;
+      gap: 50px;
+      margin-left: 50px;
+      margin-right: 100px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      
+    }
+    .about-pg{
+      display: grid;
+      gap: 10px;
+      padding: 0px;
+    }
+    #about-me{
+      margin-right: 10px;
+      margin-left: 10px;
+      font-size: 20px;
+      padding-right: 10px;
+      
+    }
+    img{
+      height: 130px;
+      margin-left: 30px;
+      width: 130px;
+    }
+    #profile-item{
+      font-size: 20px;
+      gap: 10px;
+      margin-left: 5px;
+      padding-left: 0%;
+    }
+    p{
+      margin-left: 5px;
+      padding-left: 10px;
+      padding-right: 100px;
+      width: 500px;
+    }
+            /* ABOUT PAGE COMPLETED  */
+            /* RESUME PAGE START */
+    .resume-container{
+      margin-top: 50px;
+      padding: 5px;
+      width: auto;
+      margin-left: 1px;
+      padding-right: 0%;
+      margin-right: 0%;
+    }
+    p{
+      padding-right: 0%;
+    }
+    h3{
+      font-size: 20px;
+      margin-left: 50px;
+    }
+    #my-resume{
+      margin-left: 150px;
+      font-size: 50px;
+      margin-top: 50px;
+    }
+    .right-section{
+      display: none;
+    }
+            /* CONTACT US KA PAGE */
+    #contact-heading{
+      margin-left: 150px;
+      font-size: 50px;
+    }
+    #input-boxes{
+      display: grid;
+      margin-left: 5px;
+      padding-left: 5px;
+    }
+    #message{
+      margin-left: 10px;
+      padding-left: 100px;
+      width: 400px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    #input-type{
+      width: 400px;
+      
+      
+    }
+    #right-boxes{
+      padding-left: 10px;
+    }
+    #send-msg{
+      margin-left: 150px;
+      margin-right: 300px;
+      margin-top: 0%;
+    }
+              /* PROJECTS KA PAGE */
+    #projects{
+      margin-left: 50px;
+      font-size: 50px;
+      margin-top: 100px;
+    }
+        
+
+      footer{
+        background-color: #000000;
+        color: white;
+        height: 500px;
+        gap: 10px;
+        padding: 20px;
+        margin-top: 300px;
+        display: flex;
+        
+      }
+      #footer-paragraph{
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 18px;
+        margin-right: 5px;
+      }
+      #second-portion{
+        
+        margin-top: 50px;
+        margin-left: 10px;
+        display: felx;
+        
+      }
+      #logo-1{
+        display: flex;
+        margin-right: 0%;
+        margin-right: 10px;
+        padding-right: 10px;
+      
+      }
+      #random-id{
+        margin-left: 5px;
+        color: white;
+        display: none;
+      }
+      #first-portion{
+        width: 300px ;
+      }
+  }
+
+  /* RESPONSIVE DESIGN PART 3 */
+
+  @media (min-width:651px) and (max-width:950px){
+    #logo{
+      margin-left: 250px;
+      margin-right: 100px;
+    
+    }
+ nav{
+  display: grid;
+ }
+    
+ 
+    
+    li{
+      
+      margin: 0px;
+      padding: 0%;
+      font-size: 20px;
+      margin-left: 50px;
+  
+    }
+    #name{
+      font-size: 50px;
+      margin-left: 200px;
+      padding-top: 300px;
+    }
+            /* ABOUT ME PAGE */
+  
+    #about-hg{
+  
+      margin-left:200px ;
+      margin-top: 50px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      font-size: 50px;
+      
+    }
+    #left-section{
+      display: flex;
+      gap: 50px;
+      margin-left: 50px;
+      margin-right: 100px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      
+    }
+    .about-pg{
+      display: grid;
+      gap: 10px;
+      padding: 0px;
+    }
+    #about-me{
+      margin-right: 3px;
+      margin-left: 60px;
+      font-size: 22px;
+      padding-right: 150px;
+      width:750px;
+      
+    }
+    img{
+      height: 150px;
+      margin-left: 50px;
+      width: 150px;
+    }
+    #profile-item{
+      font-size: 20px;
+      gap: 10px;
+      margin-left: 5px;
+      padding-left: 0%;
+    }
+    p{
+      margin-left: 5px;
+      padding-left: 10px;
+      padding-right: 100px;
+      width: 500px;
+    }
+            /* ABOUT PAGE COMPLETED  */
+            /* RESUME PAGE START */
+    .resume-container{
+      margin-top: 50px;
+      padding: 10px;
+      width: auto;
+      margin-left: 10px;
+      padding-right: 0%;
+      margin-right: 0%;
+      padding-left: 60px;
+    }
+    p{
+      padding-right: 0%;
+    }
+    h3{
+      font-size: 25px;
+      margin-left: 40px;
+    }
+    #my-resume{
+      margin-left: 150px;
+      font-size: 50px;
+      margin-top: 50px;
+      padding-left: 50px;
+    }
+    .right-section{
+      display: none;
+    }
+            /* CONTACT US KA PAGE */
+    #contact-heading{
+      margin-left: 200px;
+      font-size: 50px;
+    }
+    #input-boxes{
+      display: flex;
+      margin-left: 5px;
+      padding-left: 5px;
+      margin-bottom: 50px;
+    }
+    #message{
+      margin-left: 10px;
+      padding-left: 100px;
+      width: 300px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      height: 150px;
+      margin-right: 0px;
+    }
+    #input-type{
+      width:300px;
+      margin-left: 50px;
+      
+      
+    }
+    #right-boxes{
+      padding-left: 1px;
+      margin-bottom: 0px;
+      font-size: 18px;
+      height: 40px;
+      gap: 10px;
+      width: 10px;
+      margin-left: 0px;
+    }
+    #send-msg{
+      margin-left: 150px;
+      margin-right: 300px;
+      margin-top: 0%;
+    }
+              /* PROJECTS KA PAGE */
+    #projects{
+      margin-left: 100px;
+      font-size: 50px;
+      margin-top: 100px;
+    }
+        
+
+      footer{
+        background-color: #000000;
+        color: white;
+        height: 500px;
+        gap: 10px;
+        padding: 20px;
+        margin-top: 300px;
+        display: flex;
+        
+      }
+      #footer-paragraph{
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 18px;
+        margin-right: 5px;
+        padding-right :0px; 
+        margin-right: 0px ;
+      }
+      #second-portion{
+        
+        margin-top: 50px;
+        margin-left: 10px;
+        
+        
+      }
+      
+      #logo-1{
+        display: flex;
+        margin-right: 0%;
+        margin-right: 10px;
+        padding-right: 10px;
+      
+      }
+      #random-id{
+        margin-left: 5px;
+        color: white;
+        padding-left: 0px;
+        display: none;
+        
+      }
+      
+      #first-portion{
+        width: 400px ;
+      }
+  }
+
+          /* RESPONSIVE DESIGN PART 4 */
+
+      @media (min-width:951px) and (max-width:1200px){
+    #logo{
+      margin-left: 20px;
+      margin-right: 50px;
+    
+    }
+ nav{
+  display: flex;
+ }
+    
+ 
+    
+    li{
+      
+      margin: 0px;
+      padding: 0%;
+      font-size: 18px;
+      margin-left: 50px;
+  
+    }
+    #name{
+      font-size:60px;
+      margin-left: 100px;
+      padding-top: 300px;
+    }
+            /* ABOUT ME PAGE */
+  
+    #about-hg{
+  
+      margin-left:200px ;
+      margin-top: 50px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      font-size: 50px;
+      
+    }
+    #left-section{
+      display: flex;
+      gap: 50px;
+      margin-left: 50px;
+      margin-right: 10px;
+      margin-top: 50px;
+      margin-bottom: 30px;
+      width: 600px;
+      
+    }
+    .about-pg{
+      display: flex;
+      gap: 10px;
+      padding: 0px;
+    }
+    #about-me{
+      margin-right: 3px;
+      margin-left: 10px;
+      font-size: 20px;
+      padding-right: 150px;
+      
+      
+    }
+    img{
+      height: 100px;
+      margin-left: 30px;
+      width: 100px;
+      margin-right: 50px;
+    }
+    #profile-item{
+      font-size: 20px;
+      gap: 10px;
+      margin-left: 5px;
+      padding-left: 0%;
+    }
+    p{
+      margin-left: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 450px;
+      margin-right: 0px;
+      padding-right: 0px;
+    }
+            /* ABOUT PAGE COMPLETED  */
+            /* RESUME PAGE START */
+    .resume-container{
+      margin-top: 50px;
+      padding: 10px;
+      width: auto;
+      margin-left: 10px;
+      padding-right: 0%;
+      margin-right: 0%;
+      padding-left: 10px;
+      gap: 0px;
+    }
+    p{
+      padding-right: 0%;
+    }
+    h3{
+      font-size: 25px;
+      margin-left: 40px;
+    }
+    #my-resume{
+      margin-left: 150px;
+      font-size: 50px;
+      margin-top: 50px;
+      padding-left: 50px;
+    }
+    .right-section{
+      margin-left: 0px;
+      font-size: 15px;
+    }
+    .left-section{
+      margin-right: 0px;
+      width: 450px;
+    }
+            /* CONTACT US KA PAGE */
+    #contact-heading{
+      margin-left: 200px;
+      font-size: 50px;
+    }
+    #input-boxes{
+      display: flex;
+      margin-left: 5px;
+      padding-left: 5px;
+      margin-bottom: 50px;
+    }
+    #message{
+      margin-left: 150px;
+      padding-left: 100px;
+      width: 300px;
+      margin-right: 100px;
+      margin-bottom: 10px;
+      height: 150px;
+      margin-right: 0px;
+    }
+    #input-type{
+      width:300px;
+      margin-left: 10px;
+      
+      
+    }
+    #right-boxes{
+      padding-left: 1px;
+      margin-bottom: 0px;
+      font-size: 18px;
+      height: 40px;
+      gap: 10px;
+      width: 10px;
+      margin-left: 0px;
+    }
+    #send-msg{
+      margin-left: 100px;
+      margin-right: 350px;
+      margin-top: 0%;
+    }
+              /* PROJECTS KA PAGE */
+    #projects{
+      margin-left: 100px;
+      font-size: 50px;
+      margin-top: 100px;
+    }
+        
+
+      footer{
+        background-color: #000000;
+        color: white;
+        height: 500px;
+        gap: 100px;
+        padding: 20px;
+        margin-top: 300px;
+        display: flex;
+        
+      }
+      #footer-paragraph{
+        margin-top: 50px;
+        margin-left: 10px;
+        font-size: 18px;
+        margin-right: 5px;
+        padding-right :0px; 
+        margin-right: 0px ;
+      }
+      #second-portion{
+        
+        margin-top: 50px;
+        margin-left: 10px;
+        
+        
+      }
+      
+      #logo-1{
+        display: flex;
+        margin-right: 0%;
+        margin-right: 10px;
+        padding-right: 10px;
+      
+      }
+      #random-id{
+        margin-left: 5px;
+        color: white;
+        padding-left: 0px;
+        display: none;
+        
+      }
+      
+      #first-portion{
+        width: 400px ;
+      }
+  }
+
